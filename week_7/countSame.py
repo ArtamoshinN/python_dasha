@@ -1,0 +1,5 @@
+a = map(int, input().split())
+b = map(int, input().split())
+a = set(a)
+b = set(b)
+print(len(a & b))
